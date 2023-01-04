@@ -1,0 +1,13 @@
+prefix=/Users/santiagoromero/opt/anaconda3/envs/py3.10.8
+exec_prefix=/Users/santiagoromero/opt/anaconda3/envs/py3.10.8
+libdir=/Users/santiagoromero/opt/anaconda3/envs/py3.10.8/lib
+sharedlibdir=/Users/santiagoromero/opt/anaconda3/envs/py3.10.8/lib
+includedir=/Users/santiagoromero/opt/anaconda3/envs/py3.10.8/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
